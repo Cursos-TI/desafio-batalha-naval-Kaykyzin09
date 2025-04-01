@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main () {
+//Declarando variável Array
     char coluna[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     int linha[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int tabuleiro[10][10] = {0};
