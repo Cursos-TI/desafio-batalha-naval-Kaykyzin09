@@ -15,12 +15,12 @@ int main () {
     tabuleiro [5][i] = 3;
 }
 //posição  do navio 3 ( diagonal )
-    for(int i =1;i < 4; i++){
-        tabuleiro[i][i] = 3;
-        for(int j = 0;j < 3; j++){ //navio 4 (diagonal)
-        tabuleiro [i][-i] = 3;
-        }
+    for (int i = 0; i < 3; i++) {
+        for (int j = 5; j < 8; j++) { //navio 4 ( diagonal )
+        tabuleiro[j][-j] = 3;
     }
+    tabuleiro[i][i] = 3;
+}
     printf("### BATALHA NAVAL ###\n\n");
 // coluna da variavel I
 printf("   ");
