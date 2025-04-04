@@ -7,12 +7,12 @@ int main () {
     int tabuleiro[10][10] = {0};
 
 //Navio 1 ( Horizontal )  I
-    for(int i = 6; i < 9; i++){
-    tabuleiro[i][3] = 3;
+    for(int i = 5; i < 8; i++){
+    tabuleiro[i][1] = 3;
 }
 //Navio 2 ( Vertical )    J
-    for(int i = 5; i < 8; i++){
-    tabuleiro [5][i] = 3;
+    for(int i = 6; i <9; i++){
+    tabuleiro [8][i] = 3;
 }
 //posição  do navio 3 ( diagonal )
     for (int i = 0; i < 3; i++) {
